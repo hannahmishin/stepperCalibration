@@ -20,6 +20,5 @@ void CalibrateMotors(){
   if (latestVal2 > IRThreshold2){
     Serial.println("TRUE 2");
     CB2=0;
-
   } 
 }
